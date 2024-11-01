@@ -1,0 +1,28 @@
+
+.variations_images_list .img {
+   border: 1px solid #9f9f9f;
+    display: inline-block;
+    margin: 0 2px;
+    position: relative;
+}
+.variations_images_list .remove_icon {
+    background: rgba(0, 0, 0, 0.9) none repeat scroll 0 0;
+    border-radius: 100%;
+    color: #ff0000;
+    font-size: 16px;
+    left: 30%;
+    line-height: 35px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    top: 24px;
+    width: 38px;
+    z-index: 9999;
+	display:none;
+}
+.variations_images_list .img_list .img:hover .remove_icon{display:block;} 
+.variations_images_list .img_list {
+    
+    margin: 0 0 5px;
+    padding: 20px;
+}
